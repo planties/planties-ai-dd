@@ -3,10 +3,6 @@ import numpy as np
 import tensorflow as tf
 from utils import clean_image, get_prediction, make_results
 from flask import Flask, jsonify, request
-import urllib.request
-
-
-urllib.request.urlretrieve("https://drive.google.com/u/0/uc?id=19OJsrkQtU4u3JmGswVbhRfYvTHaBdZtF&export=download&confirm=t&uuid=49702e3a-872c-4b21-8f27-dc37951512eb&at=AKKF8vzFq9APlj8DEoKITphC_i3J:1683553196380", "model.h5")
 
 
 app = Flask(__name__)
