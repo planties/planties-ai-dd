@@ -23,6 +23,20 @@ jobs:
       
     - name: Pull LFS objects
       run: git lfs pull
+      
+    - name: Fetch action
+      id: pl
+      uses: Rishabh510/Path-lister-action@master
+      with:
+        path: ".github/"
+        type: ".yml"
+
+    - name: Output results
+      run: |
+        echo "Found ${{ steps.pl.outputs.path_count }} file(s) with this extension:"
+        for i in ${{ steps.pl.outputs.paths }}; do
+        echo $i
+        done
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v2
