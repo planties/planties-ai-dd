@@ -23,14 +23,14 @@ jobs:
       uses: docker/login-action@v2
       with:
         registry: https://index.docker.io/v1/
-        username: ${{ secrets.AzureAppService_ContainerUsername_7cf4dc5d1c1740c1af50238b5c1ce9b5 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_19ede3d2385b45108259bce9a8c9ed19 }}
+        username: ${{ secrets.AzureAppService_ContainerUsername_f24d4267103444cfa766118013df1ffb }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_c4c8e8ff9ea9496280b58db5a4215a0c }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_7cf4dc5d1c1740c1af50238b5c1ce9b5 }}/whoisgalih/planties-ai-dd:${{ github.sha }}
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_f24d4267103444cfa766118013df1ffb }}/planties-ai-dd:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'planties-ai-dd-x86'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_87409081b9894e37ae52d54cb11c8593 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_7cf4dc5d1c1740c1af50238b5c1ce9b5 }}/whoisgalih/planties-ai-dd:${{ github.sha }}'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_467157ab5dbb45688094c21a11969a74 }}
+        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_f24d4267103444cfa766118013df1ffb }}/planties-ai-dd:${{ github.sha }}'
