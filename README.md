@@ -3,7 +3,7 @@
 An AI to detect diseases in plants according the leaf given
 
 
-**"Team Berkah Ramadhan"** \
+**Team Berkah Ramadhan** \
 [Galih Akbar Nugraha](https://github.com/whoisgalih) - Hipster\
 [Jan Falih Fadhilah](https://github.com/jfalih) - Hacker \
 [Muhammad Abiya Makruf](https://github.com/AbiyaMakruf) - Hustler
