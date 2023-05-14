@@ -1,16 +1,16 @@
 
 # Planties AI Disease Detection
-An AI to detect diseases in plants according the leaf given
-
 
 **Team Berkah Ramadhan**
 1. [Galih Akbar Nugraha](https://github.com/whoisgalih) - Hipster
 2. [Jan Falih Fadhilah](https://github.com/jfalih) - Hacker 
 3. [Muhammad Abiya Makruf](https://github.com/AbiyaMakruf) - Hustler
 
+Sebuah AI yang dapat memberikan prediksi penyakit pada tanaman dengan cara melakukan scan daun pada tanaman tersebut.
+
 ## Planties Tech Stack
 
-This is the back-end repository meade with tensorflow and flask. Following is the link to the front-end repositoy:
+This is the back-end repository made with tensorflow and flask. Following is the link to the front-end repository:
 
 Planties Superapp: [jfalih/planties](https://github.com/jfalih/planties)
 
