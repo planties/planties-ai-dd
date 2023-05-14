@@ -3,10 +3,10 @@
 An AI to detect diseases in plants according the leaf given
 
 
-**Team Berkah Ramadhan** \
-[Galih Akbar Nugraha](https://github.com/whoisgalih) - Hipster\
-[Jan Falih Fadhilah](https://github.com/jfalih) - Hacker \
-[Muhammad Abiya Makruf](https://github.com/AbiyaMakruf) - Hustler
+**Team Berkah Ramadhan**
+1. [Galih Akbar Nugraha](https://github.com/whoisgalih) - Hipster
+2. [Jan Falih Fadhilah](https://github.com/jfalih) - Hacker 
+3. [Muhammad Abiya Makruf](https://github.com/AbiyaMakruf) - Hustler
 
 ## Planties Tech Stack
 
