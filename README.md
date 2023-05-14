@@ -1,14 +1,22 @@
 
 # Planties AI Disease Detection
-an AI to detect diseases in plants
+An AI to detect diseases in plants according the leaf given
 
+## Planties Tech Stack
 
+This is the back-end repository meade with tensorflow and flask. Following is the link to the front-end repositoy:
+
+Planties Superapp: [jfalih/planties](https://github.com/jfalih/planties)
 
 ## Features
 
 - Scan Disease
-- Scan Result {Healthy, Multiple Diseases, Rust, Scab}
-- Percentage
+- Scan Result
+```python
+ {"Healthy", "Multiple Diseases", "Rust", "Scab"}
+ ```
+- Confident Percentage
+
 ## Installation
 Steps to run Code
 
@@ -23,3 +31,4 @@ cd planties-ai-dd
 * Run the code with mentioned command below.
 ```bash
 Python app.py
+```
